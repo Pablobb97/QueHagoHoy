@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/idButtonMenuFecha"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_today"
+        android:onClick="seleccionaDia"
+        android:title="Item_fecha"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/idButtonMenuActualizar"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_popup_sync"
+        android:title="Item_Actualizar"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/idButtonMenuAutomatico"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_save"
+        android:title="Automatico"
+        android:visible="true"
+        app:showAsAction="ifRoom" ></item>
+
+    <item
+        android:id="@+id/idButtonMenuGuardar"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android:title="Guardar"
+        android:visible="true"
+        app:showAsAction="ifRoom"></item>
+</menu>
